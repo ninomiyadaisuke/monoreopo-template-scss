@@ -1,0 +1,25 @@
+{
+  "name": "app-one",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "PORT='3000' next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "ui": "*"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.3",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "eslint-config-custom": "*",
+    "next-transpile-modules": "^10.0.0",
+    "tsconfig": "*",
+    "typescript": "^4.9.4"
+  }
+}
