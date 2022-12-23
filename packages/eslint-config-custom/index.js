@@ -10,6 +10,7 @@ module.exports = {
     'file-extension-in-import-ts',
     'simple-import-sort',
     'import',
+    "unused-imports"
   ],
   extends: [
     'airbnb-typescript', // prettierのextendsは他のextendsより後に記述する
@@ -23,7 +24,7 @@ module.exports = {
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'import/newline-after-import': 'error',
-    // 'unused-imports/no-unused-imports': 'error',
+    'unused-imports/no-unused-imports': 'error',
     'no-console': 'error',
     'react/no-danger': 'off', // it's self explainatory that no-danger should be used sparingly
     'react/react-in-jsx-scope': 'off', // next.js does not require react in most components
