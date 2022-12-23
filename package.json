@@ -36,10 +36,12 @@
   "packageManager": "npm@8.11.0",
   "lint-staged": {
     "apps/**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
+      "prettier --write",
+      "eslint --fix -f table"
     ],
     "packages/ui/**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
+      "prettier --write",
+      "eslint --fix -f table"
     ],
     "*.json": [
       "prettier --write"
