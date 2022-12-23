@@ -25,10 +25,7 @@
     "sass": "^1.57.1",
     "ts-loader": "^9.4.2",
     "turbo": "latest",
-    "typed-scss-modules": "^7.0.1",
-    "webpack": "^5.75.0",
-    "webpack-cli": "^5.0.1",
-    "webpack-dev-server": "^4.11.1"
+    "typed-scss-modules": "^7.0.1"
   },
   "engines": {
     "node": ">=14.0.0"
@@ -36,10 +33,12 @@
   "packageManager": "npm@8.11.0",
   "lint-staged": {
     "apps/**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
+      "prettier --write",
+      "eslint --fix -f table"
     ],
     "packages/ui/**/*.{js,ts,jsx,tsx}": [
-      "eslint --fix"
+      "prettier --write",
+      "eslint --fix -f table"
     ],
     "*.json": [
       "prettier --write"
