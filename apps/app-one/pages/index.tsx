@@ -1,11 +1,11 @@
-import type { NextPage } from "next";
+import type { NextPage } from 'next';
 import { Button } from "ui";
 
-const Home: NextPage = () => {  
+const Home: NextPage = () => {
   return (
     <div>
       <h2>monorepoTemplate</h2>
-      <Button/>
+      <Button />
     </div>
   );
 };
