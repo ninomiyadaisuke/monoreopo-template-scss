@@ -5,10 +5,14 @@
   "license": "MIT",
   "dependencies": {
     "eslint": "^7.23.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "13.0.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-react": "7.31.8",
-    "eslint-config-turbo": "latest"
+    "eslint-config-turbo": "latest",
+    "eslint-formatter-table": "^7.32.1",
+    "eslint-import-resolver-typescript": "^3.5.2",
+    "eslint-plugin-file-extension-in-import-ts": "^1.0.1",
+    "eslint-plugin-react": "7.31.8"
   },
   "devDependencies": {
     "typescript": "^4.7.4"
