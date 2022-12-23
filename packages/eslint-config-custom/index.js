@@ -13,8 +13,8 @@ module.exports = {
     'prettier',
   ],
   rules: {
-    'simple-import-sort/imports': 'error',
-    'simple-import-sort/exports': 'error',
+    'simple-import-sort/imports': 'warn',
+    'simple-import-sort/exports': 'warn',
     'no-console': 'error',
     'react/no-danger': 'off', // it's self explainatory that no-danger should be used sparingly
     'react/react-in-jsx-scope': 'off', // next.js does not require react in most components
