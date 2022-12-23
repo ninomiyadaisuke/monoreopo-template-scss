@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "eslint": "^7.23.0",
+    "eslint": "^8.30.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-next": "13.0.0",
     "eslint-config-prettier": "^8.3.0",
@@ -16,6 +16,8 @@
     "eslint-plugin-simple-import-sort": "^8.0.0"
   },
   "devDependencies": {
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
     "typescript": "^4.7.4"
   },
   "publishConfig": {
