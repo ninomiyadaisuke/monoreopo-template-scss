@@ -4,7 +4,7 @@ import { Button } from 'ui';
 const Home: NextPage = () => {
   return (
     <div>
-      <h2>app-2 monorepo Template</h2>
+      <h2>app-2 monorepoTemplate</h2>
       <Button />
     </div>
   );
