@@ -32,6 +32,6 @@ module.exports = {
     'react/prop-types': 'off', // as long as TS strict mode is off this is not required
     '@next/next/no-html-link-for-pages': 'off',
     'react/jsx-key': 'off',
-    'prettier/prettier': 'off', // don't show prettier errors as it will be fixed when saved anyway
+    // 'prettier/prettier': 'off', // don't show prettier errors as it will be fixed when saved anyway
   },
 };
