@@ -6,7 +6,6 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'react', 'simple-import-sort', 'import'],
   extends: [
-    'airbnb-typescript', // prettierのextendsは他のextendsより後に記述する
     'plugin:@typescript-eslint/recommended',
     'next',
     'turbo',
