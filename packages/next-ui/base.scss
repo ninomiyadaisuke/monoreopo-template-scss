@@ -1,0 +1,128 @@
+// @import './variables.scss';
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  // color: $__color_body_primary;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 100;
+  font-feature-settings: 'palt';
+  letter-spacing: 0.1rem;
+  margin: 0;
+  padding: 0;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: none; //モバイル版Chrome等のデザイン崩れ防止
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+img {
+  border: 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+}
+
+blockquote,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol,
+p,
+pre,
+td,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2.4rem;
+  font-weight: 100;
+  letter-spacing: 0.1rem;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+p {
+  letter-spacing: 0.1rem;
+  line-height: 1.7;
+}
+
+// a {
+//   color: $__color_body_primary;
+//   transition: .2s ease-in;
+//   text-decoration: none;
+//   &:visited {
+//     color: $__color_body_primary;
+//   }
+//   &:hover {
+//     color: $__color_body_secondary;
+//   }
+// }
+
+// b,
+// strong {
+//   font-family: 'Noto Sans JP', sans-serif;
+// }
+
+// address {
+//   font-style: normal;
+// }
