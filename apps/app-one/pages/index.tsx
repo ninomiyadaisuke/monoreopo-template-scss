@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import { Button } from 'ui';
+import { Button } from 'next-ui';
 
 const Home: NextPage = () => {
   return (

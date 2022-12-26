@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
+  ignorePatterns: ['.eslintrc.*', 'next.config.js'],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'react', 'simple-import-sort', 'import'],
   extends: [
