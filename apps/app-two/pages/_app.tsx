@@ -1,7 +1,7 @@
-import 'common-styles/base.scss';
+import 'common/styles/base.scss';
 
+import { NextHead } from 'common/components';
 import type { AppProps } from 'next/app';
-import { NextHead } from 'next-ui';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
