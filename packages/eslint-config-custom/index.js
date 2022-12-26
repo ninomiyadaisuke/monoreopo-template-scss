@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
   },
-  // ignorePatterns: ['.eslintrc.*', 'next.config.js'], // https://zenn.dev/warugaki/scraps/f71614869a38a5
+  ignorePatterns: ['.eslintrc.*', 'next.config.js'], // https://zenn.dev/warugaki/scraps/f71614869a38a5
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint', 'react', 'simple-import-sort', 'import'],
   extends: [

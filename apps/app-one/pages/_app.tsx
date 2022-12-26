@@ -1,4 +1,4 @@
-import 'next-ui/base.scss';
+import 'common-styles/base.scss';
 
 import type { AppProps } from 'next/app';
 import { NextHead } from 'next-ui';
