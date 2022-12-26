@@ -1,5 +1,5 @@
+import { Button } from 'common/components';
 import type { NextPage } from 'next';
-import { Button } from 'next-ui';
 
 const Home: NextPage = () => {
   return (
