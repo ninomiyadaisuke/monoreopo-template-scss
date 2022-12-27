@@ -36,7 +36,7 @@
       "prettier --write",
       "eslint --fix -f table"
     ],
-    "packages/next-ui/**/*.{js,ts,jsx,tsx}": [
+    "packages/common/**/*.{js,ts,jsx,tsx}": [
       "prettier --write",
       "eslint --fix -f table"
     ],
