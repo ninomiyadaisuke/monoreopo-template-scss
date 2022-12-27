@@ -1,7 +1,7 @@
 import { Button } from 'common/components';
 import type { NextPage } from 'next';
 
-import styles from '../styles/title.module.scss';
+import styles from '@/styles/title.module.scss';
 
 const Home: NextPage = () => {
   return (
