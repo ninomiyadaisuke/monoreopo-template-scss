@@ -1,0 +1,9 @@
+@use 'variables' as *;
+
+.title {
+  color: $navy;
+  font-size: 20px;
+  @include mq('md') {
+    font-size: 40px;
+  }
+}
