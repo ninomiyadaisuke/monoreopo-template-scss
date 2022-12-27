@@ -6,7 +6,7 @@ import type { AppProps } from 'next/app';
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <NextHead title="test title" />
+      <NextHead title="app-1 title" />
       <Component {...pageProps} />
     </>
   );
