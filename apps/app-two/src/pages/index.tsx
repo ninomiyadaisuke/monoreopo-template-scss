@@ -1,4 +1,4 @@
-import { Button } from 'common/components';
+import { Button, Test } from '@common/components';
 import type { NextPage } from 'next';
 
 import styles from '@/styles/title.module.scss';
@@ -8,6 +8,7 @@ const Home: NextPage = () => {
     <div>
       <h2 className={styles.title}>app-2 monorepo Template</h2>
       <Button />
+      <Test />
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import { Button, Test } from 'common/components';
+import { Button, Test } from '@common/components';
 import type { NextPage } from 'next';
 
 import styles from '@/styles/title.module.scss';

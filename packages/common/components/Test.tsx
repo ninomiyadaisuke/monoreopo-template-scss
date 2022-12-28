@@ -1,6 +1,5 @@
+import styles from '@common/styles/test.module.scss';
 import { FC } from 'react';
-
-import styles from '../styles/test.module.scss';
 
 const Test: FC = () => {
   return <div className={styles.test}>Test</div>;
