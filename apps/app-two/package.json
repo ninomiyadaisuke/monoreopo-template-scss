@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "run-p dev:*",
     "dev:next": "PORT='3001' next dev",
-    "dev:sass": "typed-scss-modules src --watch --implementation sass --nameFormat dashes --exportType default",
-    "dev:cpx": "cpx \"../../packages/common/styles/variables.scss\" \"src/styles\" --watch",
+    "dev:sass": "typed-scss-modules src --watch --includePaths ../../packages/common/styles --implementation sass --nameFormat dashes --exportType default",
     "build": "next build",
     "start": "next start"
   },

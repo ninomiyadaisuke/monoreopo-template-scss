@@ -5,7 +5,8 @@
   "types": "./index.tsx",
   "license": "MIT",
   "scripts": {
-    "lint": "TIMING=1 eslint \"**/*.ts*\""
+    "lint": "TIMING=1 eslint \"**/*.ts*\"",
+    "dev": "typed-scss-modules styles --watch --implementation sass --nameFormat dashes --exportType default"
   },
   "devDependencies": {
     "@types/node": "18.11.3",

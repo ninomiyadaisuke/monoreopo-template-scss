@@ -1,4 +1,4 @@
-import { Button, Test } from '@common/components';
+import { Button, Test, Text } from '@common/components';
 import type { NextPage } from 'next';
 
 import styles from '@/styles/components/testt.module.scss';
@@ -9,6 +9,7 @@ const Home: NextPage = () => {
       <h2 className={styles.test}>monorepoTemplate</h2>
       <Button />
       <Test />
+      <Text text="テキストを出力" />
     </div>
   );
 };
