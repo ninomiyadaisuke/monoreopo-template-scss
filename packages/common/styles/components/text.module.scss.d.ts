@@ -1,1 +1,9 @@
-export const text: string;
+export type Styles = {
+  text: string;
+};
+
+export type ClassNames = keyof Styles;
+
+declare const styles: Styles;
+
+export default styles;
