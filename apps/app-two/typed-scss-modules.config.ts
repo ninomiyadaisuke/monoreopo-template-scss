@@ -3,6 +3,6 @@ export const config = {
   nameFormat: 'dashes',
   exportType: 'default',
   includePaths: ['../../packages/common/styles'],
-  additionalData: `@use "../../packages/common/styles/variables.scss" as *;`,
+  additionalData: `@use '../../packages/common/styles/variables.scss' as *;`,
   ignore: ['**/variables.scss', '**/variables/**'],
 };
