@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
+    "dev": "run-p dev:*",
+    "dev:turbo": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install"
@@ -16,6 +17,7 @@
   "devDependencies": {
     "@types/react-scroll": "^1.8.5",
     "@types/react-transition-group": "^4.4.5",
+    "cpx": "^1.5.0",
     "eslint-config-custom": "*",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",

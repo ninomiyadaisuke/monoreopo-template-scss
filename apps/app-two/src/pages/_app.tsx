@@ -1,4 +1,4 @@
-import 'common/styles/base.scss';
+import '@common/styles/base.scss';
 
 import { NextHead } from 'common/components';
 import type { AppProps } from 'next/app';

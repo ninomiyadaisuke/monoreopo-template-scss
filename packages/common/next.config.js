@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   sassOptions: {
-    includePaths: [path.resolve(__dirname, '../../packages/common/styles')],
+    includePaths: [path.resolve(__dirname, 'styles')],
   },
   reactStrictMode: true,
 };
