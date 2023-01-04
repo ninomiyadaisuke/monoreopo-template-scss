@@ -3,6 +3,9 @@
 .title {
   color: $navy;
   font-size: 20px;
+  &__test {
+    padding: auto;
+  }
   @include mq('md') {
     font-size: 40px;
   }

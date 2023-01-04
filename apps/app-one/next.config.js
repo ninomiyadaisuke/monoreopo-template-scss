@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = withTM({
   sassOptions: {
-    includePaths: [path.resolve(__dirname, '../../packages/common/styles')],
+    includePaths: [path.resolve(__dirname, 'src/styles')],
   },
   reactStrictMode: true,
 });
