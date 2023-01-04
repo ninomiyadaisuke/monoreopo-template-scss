@@ -1,7 +1,7 @@
 import { Button, Test, Text } from '@common/components';
 import type { NextPage } from 'next';
 
-import styles from '@/styles/components/testt.module.scss';
+import styles from '@/styles/components/test.module.scss';
 
 const Home: NextPage = () => {
   return (
