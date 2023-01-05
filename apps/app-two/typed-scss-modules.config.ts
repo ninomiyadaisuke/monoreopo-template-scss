@@ -1,8 +1,5 @@
+import typedSassModules from '../../packages/config/typed-scss-modules.config';
+
 export const config = {
-  implementation: 'sass',
-  nameFormat: 'dashes',
-  exportType: 'default',
-  includePaths: ['../../packages/common/styles'],
-  additionalData: `@use '../../packages/common/styles/variables.scss' as *;`,
-  ignore: ['**/variables.scss', '**/variables/**'],
+  ...typedSassModules,
 };

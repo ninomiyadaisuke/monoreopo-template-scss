@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "run-p dev:*",
     "dev:next": "PORT='3001' next dev",
-    "dev:sass": "typed-scss-modules src --watch",
+    "dev:sass": "typed-scss-modules src",
     "build": "next build",
     "start": "next start"
   },
@@ -19,7 +19,7 @@
     "@types/node": "18.11.3",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
-    "eslint-config-custom": "*",
+    "config": "*",
     "next-transpile-modules": "^10.0.0",
     "tsconfig": "*",
     "typescript": "^4.9.4"
