@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "run-p dev:*",
     "dev:next": "PORT='3000' next dev",
-    "dev:sass": "typed-scss-modules src --watch",
+    "dev:sass": "typed-scss-modules src",
     "build": "next build",
     "start": "next start"
   },

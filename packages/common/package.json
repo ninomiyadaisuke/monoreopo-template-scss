@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "TIMING=1 eslint \"**/*.ts*\"",
-    "dev": "typed-scss-modules styles --watch"
+    "dev": "typed-scss-modules styles"
   },
   "devDependencies": {
     "@types/node": "18.11.3",
